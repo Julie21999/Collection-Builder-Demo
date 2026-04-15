@@ -1,0 +1,14 @@
+{% assign person = site.data.oral-history-cards | where: "name", include.person
+| first %} {% assign normalized_name = include.person | downcase | replace: " ",
+"-" %} {% assign img = normalized_name | append: ".jpg" | prepend:
+"/assets/img/oral-history/" %}
+
+<div>
+    <img
+        src="{{ img | relative_url }}"
+        class="img-fluid rounded float-left m-2"
+        style="aspect-ratio: 1; height: 12em"
+        align="left"
+    />
+    {{ person.text | newline_to_br | markdownify }}
+</div>

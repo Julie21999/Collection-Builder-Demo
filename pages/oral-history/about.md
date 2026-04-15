@@ -16,8 +16,10 @@ Duis tristique metus nisi, in vulputate tortor condimentum et. Suspendisse ornar
     <div class="row justify-content-center g-4">
     {% for card in site.data.oral-history-cards %}
       <div class="col-sm-6 col-12">
-          {% assign dest = card.name | downcase | replace: " ", "-" | prepend: "/oral-history/" %}
-          {% include feature/card.html header=card.name text=card.text btn-dest=dest color="red" %}
+          {% assign normalized_name = card.name | downcase | replace: " ", "-" %}
+          {% assign dest = normalized_name | prepend: "/oral-history/" %}
+          {% assign img = normalized_name | append: ".jpg" | prepend: "/assets/img/oral-history/" %}
+          {% include personcard.html header=card.name text=card.text img=img btn-dest=dest color="red" %}
       </div>
     {% endfor %}
     </div>

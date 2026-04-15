@@ -1,0 +1,17 @@
+<div class="card mb-3">
+    <h2 class="card-header">{{ include.header }}</h2>
+    <div class="card-body">
+        <div class="overflow-auto" style="height: 12em">
+            <img
+                class="img-fluid rounded float-left m-2"
+                src="{{ include.img | relative_url }}"
+                style="aspect-ratio: 1; height: 5em"
+                align="left"
+            />
+            <div class="card-text">{{ include.text | markdownify }}</div>
+        </div>
+    </div>
+    <a href="{{ include.btn-dest | relative_url }}" class="btn btn-primary">
+        <em>{{ include.btn-content | default: "Learn More..." }}</em>
+    </a>
+</div>
