@@ -8,7 +8,33 @@ permalink: /contact-us.html
 
 For future information about this curated repository of materials, please contact Julie Stout at [julistou@iu.edu](mailto:julistou@iu.edu).
 
-For specific questions regarding the collection materials, access, and other general inquiries into the Dorson Gary Project and broader Dorson collection, please contact Indiana University Archives. In-person access to materials requires an appointment with the University Archives. Please call or email to schedule an appointment.
+For access to original boxes, slides, and unpublished AV materials, please utilize the following contact information:
 
-- 812-855-1127
-- [archives@iu.edu](mailto:archives@iu.edu)
+<div class="d-flex align-items-center justify-content-around">
+<table class="table table-bordered w-75">
+    <thead>
+        <tr>
+            <th scope="col">Publisher</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>IU Archives</td>
+            <td><a href="mailto:archives@iu.edu">archives@iu.edu</a></td>
+            <td><a href="tel:+18128551127">+1 (812) 855-1127</a></td>
+        </tr>
+        <tr>
+            <td>Archives of Traditional Music</td>
+            <td><a href="mailto:atmusic@iu.edu">atmusic@iu.edu</a></td>
+            <td><a href="tel:+18128554679">+1 (812) 855-4679</a></td>
+        </tr>
+        <tr>
+            <td>IU Northwest Archives</td>
+            <td><a href="mailto:iunasp@iu.edu">iunasp@iu.edu</a></td>
+            <td><a href="tel:+12199814281">+1 (219) 981-4281</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
