@@ -56,7 +56,7 @@ Every object in this collection has a select publisher associated with it. For m
               <div>
                 <h3>Copyright Notice</h3>
                 <p>
-                    Copyright information may vary based on an individual object. Interested parties should <a href="{{ 'contact-us.html' | relative_url }}">contact the archives</a>.
+                    Copyright information may vary based on an individual object. Interested parties should <a href="{{ 'contact-us.html' | relative_url }}">contact the archives</a>. For general guidance, see their <a href="https://northwest.iu.edu/library/departments/policy-on-access-and-use.html">Access and Use Policy</a>.
                 </p>
               </div>
               <div>
