@@ -8,7 +8,7 @@
                 style="aspect-ratio: 1; height: 5em"
                 align="left"
             />
-            <div class="card-text">{{ include.text | markdownify }}</div>
+            <div class="card-text">{{ include.brief | markdownify }}</div>
         </div>
     </div>
     <a href="{{ include.btn-dest | relative_url }}" class="btn btn-primary">

@@ -6,11 +6,15 @@ permalink: /oral-history.html
 
 # The Oral Histories
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet ligula tortor. Integer sollicitudin id neque quis placerat. Morbi consequat felis nec quam rutrum rhoncus. Vestibulum sodales nisi libero, in fermentum enim congue vitae. Morbi ac tellus molestie nulla pretium finibus vitae sed sapien. Fusce pellentesque, nibh nec auctor scelerisque, nibh libero varius velit, nec ultrices nibh diam eget orci. Pellentesque consequat tortor et ex egestas, eget ultrices dolor egestas. Vivamus vitae egestas felis, id placerat lacus. In hac habitasse platea dictumst.
+“The Gary Project” was not done by Richard Dorson alone. The efforts of multiple graduate students, a project coordinator, and other auxiliary staff culminated into the documented fieldwork and published monograph still preserved and discoverable within various IU Archive repositories. Their efforts resulted in the production of a multitude of materials, such as field notes, photographs, or audio-visual recordings.
 
-Donec fermentum dictum metus, in fermentum libero interdum nec. Aliquam vitae dolor a velit congue dapibus. Nulla dapibus consequat felis quis cursus. Donec efficitur placerat nulla. Sed ipsum enim, placerat id est in, porttitor pulvinar arcu. Cras rutrum, urna at fermentum porttitor, mi purus ultrices lacus, sed gravida dui neque eu augue. Phasellus sollicitudin vehicula magna, a maximus purus maximus id. Proin posuere, purus vel facilisis fermentum, urna urna faucibus nisi, ut imperdiet magna metus luctus est. Praesent tincidunt elit tincidunt, pellentesque risus sit amet, pulvinar leo. Donec vestibulum enim vitae ex accumsan tincidunt. Aliquam eget turpis condimentum, tincidunt nisi in, vulputate sem. Nulla facilisi.
+Below is a collection of oral histories of some members of Dorson’s “Gary Gang” from when the project was conducted in the 1970s in the Calumet region. The interviewees speak about their own life stories, their work on the Gary Project, and their interactions and impressions of Richard Dorson himself. The students’ recounting of their ability to engage with the local community and speak of a few of the vibrant stories they collected allow them to be an excellent reference to frame Gary as a multi-cultural hub where a multitude of cultural diasporas and traditions lived and prospered.
 
-Duis tristique metus nisi, in vulputate tortor condimentum et. Suspendisse ornare est in hendrerit commodo. Integer semper tincidunt enim, vitae rutrum neque efficitur et. Phasellus a nulla bibendum, mattis neque at, ultricies lectus. Duis finibus turpis elit, id molestie purus accumsan vel. Sed venenatis mollis dolor, in fermentum turpis consectetur ac. Quisque commodo, eros nec rutrum ultricies, justo lectus lobortis diam, id consectetur erat nibh id augue. Ut vel turpis vel magna laoreet ultricies. Nullam semper dui lacinia ex euismod euismod. Integer mauris nisl, ultrices at placerat ac, tincidunt sit amet sapien. Aenean placerat in erat ut molestie. Nam quis dui rutrum, posuere ante in, ultrices enim.
+Their recollections comment on what it meant to be part of a larger project that catapulted folklore studies into new directions during that time frame, both in academic scope and with the usage of brand new audio-visual technology. Conducting interviews with the graduate students today also allows individuals to see how their contributions to the project and the skills they learned led them into careers that actively utilized folklore ethnographic fieldwork methodologies and practices.
+
+All interviews conducted were deposited into the _Richard M. Dorson Papers_ Collection within Indiana University Archives with the interviewees consent. Please refer to the contact page for more information on the interviews and how to cite them.
+
+Select “Learn More” on a particular interviewee to view their personally-written autobiography.
 
 <div class="card-group">
     <div class="row justify-content-center g-4">
@@ -19,7 +23,7 @@ Duis tristique metus nisi, in vulputate tortor condimentum et. Suspendisse ornar
           {% assign normalized_name = card.name | downcase | replace: " ", "-" %}
           {% assign dest = normalized_name | prepend: "/oral-history/" %}
           {% assign img = normalized_name | append: ".jpg" | prepend: "/assets/img/oral-history/" %}
-          {% include personcard.html header=card.name text=card.text img=img btn-dest=dest color="red" %}
+          {% include personcard.html header=card.name brief=card.brief img=img btn-dest=dest color="red" %}
       </div>
     {% endfor %}
     </div>

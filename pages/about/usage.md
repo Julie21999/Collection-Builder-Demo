@@ -6,7 +6,7 @@ permalink: /usage.html
 
 # Usage & Access
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, ex vitae tempus volutpat, neque felis dictum ex, ut feugiat nulla arcu porttitor urna. Phasellus dui metus, pharetra vitae justo quis, feugiat pharetra lectus. Aliquam malesuada augue nibh, ac accumsan magna auctor eget. Fusce nec sem tortor. Phasellus venenatis dolor congue quam pellentesque cursus. Praesent commodo porta sem. Integer tincidunt eros nec velit euismod, nec convallis est imperdiet. Cras varius mi leo, eget porttitor erat gravida sit amet.
+Every object in this collection has a select publisher associated with it. For more information on ownership, copyright, and preferred citations, see below for information on each institution. For more contact methods, see [Contact Us]({{ "contact-us.html" | relative_url }}).
 
 <div class="accordion mx-auto" style="width: 850px" id="usage-and-access">
     <div class="accordion-item">
@@ -56,13 +56,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, ex vitae t
               <div>
                 <h3>Copyright Notice</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, ex vitae tempus volutpat, neque felis dictum ex, ut feugiat nulla arcu porttitor urna. Phasellus dui metus, pharetra vitae justo quis, feugiat pharetra lectus. Aliquam malesuada augue nibh, ac accumsan magna auctor eget. Fusce nec sem tortor. Phasellus venenatis dolor congue quam pellentesque cursus. Praesent commodo porta sem. Integer tincidunt eros nec velit euismod, nec convallis est imperdiet. Cras varius mi leo, eget porttitor erat gravida sit amet.
+                    Copyright information may vary based on an individual object. Interested parties should <a href="{{ 'contact-us.html' | relative_url }}">contact the archives</a>.
                 </p>
               </div>
               <div>
                   <h3>Preferred Citation</h3>
                   <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, ex vitae tempus volutpat, neque felis dictum ex, ut feugiat nulla arcu porttitor urna. Phasellus dui metus, pharetra vitae justo quis, feugiat pharetra lectus. Aliquam malesuada augue nibh, ac accumsan magna auctor eget. Fusce nec sem tortor. Phasellus venenatis dolor congue quam pellentesque cursus. Praesent commodo porta sem. Integer tincidunt eros nec velit euismod, nec convallis est imperdiet. Cras varius mi leo, eget porttitor erat gravida sit amet.
+                      [Item], Calumet Regional Archives, Indiana University Northwest Archives and Special Collections, Gary, Indiana.
                   </p>
               </div>
               <div>
@@ -91,13 +91,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, ex vitae t
               <div>
                 <h3>Copyright Notice</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, ex vitae tempus volutpat, neque felis dictum ex, ut feugiat nulla arcu porttitor urna. Phasellus dui metus, pharetra vitae justo quis, feugiat pharetra lectus. Aliquam malesuada augue nibh, ac accumsan magna auctor eget. Fusce nec sem tortor. Phasellus venenatis dolor congue quam pellentesque cursus. Praesent commodo porta sem. Integer tincidunt eros nec velit euismod, nec convallis est imperdiet. Cras varius mi leo, eget porttitor erat gravida sit amet.
+                    Copyright information may vary based on an individual object. Interested parties should <a href="{{ 'contact-us.html' | relative_url }}">contact the archives</a>.
                 </p>
               </div>
               <div>
                   <h3>Preferred Citation</h3>
                   <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis cursus, ex vitae tempus volutpat, neque felis dictum ex, ut feugiat nulla arcu porttitor urna. Phasellus dui metus, pharetra vitae justo quis, feugiat pharetra lectus. Aliquam malesuada augue nibh, ac accumsan magna auctor eget. Fusce nec sem tortor. Phasellus venenatis dolor congue quam pellentesque cursus. Praesent commodo porta sem. Integer tincidunt eros nec velit euismod, nec convallis est imperdiet. Cras varius mi leo, eget porttitor erat gravida sit amet.
+                      The Archives of Traditional Music do not provide a general-use citation format, but provide citations for individual items in Chicago, APA, and MLA formats. Interested parties may use any of these at their discretion.
                   </p>
               </div>
               <div>
