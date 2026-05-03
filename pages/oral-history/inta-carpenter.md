@@ -8,4 +8,4 @@ permalink: /oral-history/inta-carpenter.html
 
 {% include bio.html person="Inta Carpenter" %}
 
-{% include videocards.html person="John Hasse" %}
+{% include videocards.html person="Inta Carpenter" %}
