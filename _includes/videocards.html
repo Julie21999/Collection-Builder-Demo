@@ -10,7 +10,7 @@
                 {% include feature/video.html objectid=video.objectid
                 caption=false %}
             </div>
-            <p class="w-50">{{ video.description }}</p>
+            <p align="left" class="w-50">{{ video.description | newline_to_br }}</p>
         </div>
     </div>
     <div class="d-flex justify-content-around">
